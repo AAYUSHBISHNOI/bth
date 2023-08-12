@@ -26,6 +26,21 @@
     --clr-g:#e6efec;
     
 }
+.fw-regular{
+    font-weight: var(--fw-regular);
+}
+.fw-primary{
+    font-weight: var(--fw-primary);
+}
+.fw-secondry{
+    font-weight: var(--fw-secondry);
+}
+.fw-bold{
+    font-weight: var(--fw-bold);
+}
+.fw-semibold{
+    font-weight: var(--fw-semibold);
+}
 .fs-xxl{
     font-size: var(--fs-xxl);
 }
