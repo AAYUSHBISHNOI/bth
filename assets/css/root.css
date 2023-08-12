@@ -1,0 +1,98 @@
+:root{
+    /* font-size */
+    --fs-xxl:62px;
+    --fs-xl:56px;
+    --fs-head:48px;
+    --fs-lg:40px;
+    --fs-cmn:32px;
+    --fs-md:20px;
+    --fs-sm:24px;
+    --fs-xsm:18px;
+
+    /* font-weight */
+    --fw-regular:800;
+    --fw-primary:700;
+    --fw-secondry:500;
+    --fw-bold:400;
+    --fw-semibold:300;
+
+    /* color */
+    --clr-a:#fff8f1;
+    --clr-b:#f05830;
+    --clr-c:#236e57;
+    --clr-d:#0d0d0d;
+    --clr-e:#fff;
+    --clr-f:#807d7d;
+    --clr-g:#e6efec;
+}
+.fs-xxl{
+    font-size: var(--fs-xxl);
+}
+.fs-xl{
+    font-size: var(--fs-xl);
+}
+.fs-head{
+    font-size: var(--fs-head);
+}
+.fs-lg{
+    font-size: var(--fs-lg);
+}
+.fs-cmn{
+    font-size: var(--fs-cmn);
+}
+.fs-md{
+    font-size: var(--fs-md);
+}
+.fs-sm{
+    font-size: var(--fs-sm);
+}
+.fs-xsm{
+    font-size: var(--fs-xsm);
+}
+.clr-a{
+    background-color: var(--clr-a);
+}
+.clr-b{
+    color: var(--clr-b);
+}
+.clr-c{
+    color: var(--clr-c);
+}
+.clr-d{
+    color: var(--clr-d);
+}
+.clr-e{
+    color: var(--clr-e);
+}
+.clr-f{
+    color: var(--clr-f);
+}
+.clr-g{
+    color: var(--clr-g);
+}
+@media (min-width:576px) {
+    :root{
+        /* font-size */
+        --fs-xxl:62px;
+        --fs-xl:56px;
+        --fs-head:48px;
+        --fs-lg:40px;
+        --fs-cmn:32px;
+        --fs-md:20px;
+        --fs-sm:24px;
+        --fs-xsm:18px;
+    }
+}
+@media (min-width:768px) {
+    :root{
+        /* font-size */
+        --fs-xxl:62px;
+        --fs-xl:56px;
+        --fs-head:48px;
+        --fs-lg:40px;
+        --fs-cmn:32px;
+        --fs-md:20px;
+        --fs-sm:24px;
+        --fs-xsm:18px;
+    }
+}
