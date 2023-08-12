@@ -24,6 +24,7 @@
     --clr-e:#fff;
     --clr-f:#807d7d;
     --clr-g:#e6efec;
+    
 }
 .fs-xxl{
     font-size: var(--fs-xxl);
