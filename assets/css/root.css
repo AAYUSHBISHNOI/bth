@@ -1,11 +1,11 @@
 :root{
     /* font-size */
     --fs-xxl:62px;
-    --fs-xl:56px;
+    --fs-xl: 30px;
     --fs-head:48px;
     --fs-lg:40px;
-    --fs-cmn:32px;
-    --fs-md:20px;
+    --fs-cmn:13px;
+    --fs-md:17px;
     --fs-sm:24px;
     --fs-xsm:18px;
 
@@ -39,7 +39,7 @@
     font-weight: var(--fw-bold);
 }
 .fw-semibold{
-    font-weight: var(--fw-semibold);
+    font-weight: var(--fw-semo);
 }
 .fs-xxl{
     font-size: var(--fs-xxl);
