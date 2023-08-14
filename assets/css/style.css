@@ -99,6 +99,9 @@
     margin-bottom: 10px;
     border-radius: 100px;
 }
+ol, ul {
+     padding-left: 0;
+}
 /* siddharth */
 .btn-choose {
     padding: 24px 60px;
