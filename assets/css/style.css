@@ -124,7 +124,7 @@
 
 .red-lines{
     height: 2.5px;
-    background-color: red;
+    background-color: #f05830;
     display: flex;
     width: 7px; 
     margin-bottom: 0;
