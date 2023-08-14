@@ -13,7 +13,7 @@
     text-decoration: none !important;
     list-style: none;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .pt100{
     padding-top: 150px;
@@ -93,11 +93,97 @@
     border-radius: 10px;
 }
 .nav-lines{
-    border: 2px solid #F05830;
+    border: 2px solid #236e57;
     display: flex;
     width: 50px;
     margin-bottom: 10px;
+    border-radius: 100px;
 }
+/* siddharth */
+.btn-choose {
+    padding: 24px 60px;
+    border-radius: 5px;
+    border: 1px solid #f05830 !important;
+  }
+  .btn-choose:hover {
+    background-color: #f05830;
+    color: white;
+    transition: all 300ms linear;
+  }
+  .img-left {
+    position: absolute;
+    top: 10%;
+    left: 0;
+  }
+  .img-right {
+    position: absolute;
+    right: 0;
+    top: 70%;
+  }
+  .w100 {
+    width: 100%;
+  }
+  .bg-img {
+    background-image: url("/assets/img/bg-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .mailbox {
+    border-radius: 5px;
+    background: rgba(251, 253, 255, 0.07);
+    width: 40%;
+    border: 1px solid white;
+  }
+  .inpt {
+    padding: 12px 6px;
+    width: 100%;
+    border: none !important;
+    background: none;
+    color: #fff !important;
+    outline: none !important;
+  }
+  .sign_btn {
+    margin-top: 5%;
+    border: none;
+    border-radius:5px;
+    background: #f05830;
+    padding: 17px 65px;
+    font-family: "Plus Jakarta Sans";
+  }
+  .sign_btn:hover {
+    background-color: #fff !important;
+    color: #f05830 !important;
+    transition: all 300ms linear !important;
+  }
+  /* card */
+  .card {
+    display: flex;
+    width: 100%;
+    padding: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    border: none !important;
+    cursor: pointer;
+    background-color: transparent !important;
+    cursor: pointer;
+  }
+  .card:hover {
+    border-radius: 12px;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 248, 241, 0.45) 0%,
+      #fff8f2 45.62%,
+      #e0fbe5 100%
+    );
+    box-shadow: 25px 25px 100px 0px rgba(166, 161, 157, 0.2);
+  }
+  ::placeholder{
+    color: white;
+  }
 @media (max-width:992px) {
     .nav_bar {
       position: fixed;
@@ -122,18 +208,195 @@
     }
 }
 @media (min-width:320px) {
+    .mailbox {
+        width: 100%;
+      }
+    .dnone{
+        display: none;
+    }
     .ms-50{
         margin-left: 0;
     }
     .pt100 {
-        padding-top: 50px;
+        padding-top: 20px;
     }
     .w_80{
         width: 90%;
     }
-    .img_pstn {
+    .img_pstn{
         position: absolute;
-        top: 80%;
+        top: 41%;
         right: 0;
     }
+    .img_pstn_2{
+        position: absolute;
+        top: 12.5%;
+        left: 15%;
+    }
+    .bttn_get{
+        border-radius: 5px;
+        background: #F05830;
+        padding: 15px 90px;
+        border: none;
+    }
+    .wdth_span{
+        width: 30%;
+    }
+    .wdth_span_1{
+        margin-left: 15%;
+        width: 50%;
+    }
+    .wdth_span_2{
+        width: 40%;
+    }
+    .wdth_span_3{
+        margin-left: 18%;
+        width: 40%;
+    }
+    .img-right {
+        position: absolute;
+        right: 0;
+        top: 10%;
+    }
+    .card {
+        width: 100%;
+        padding: 10px;
+        gap: 24px;
+      }
+      .dnone_1{
+        display: unset;
+    }
+    .dnone_2{
+        display: none;
+    }
+}
+@media (min-width:576px) {
+    .img_pstn_2{
+        position: absolute;
+        top: 22%;
+        left: 40%;
+    }
+    .w_80{
+        width: 40%;
+    }
+    .img_pstn_2{
+        display: none;
+    }
+    .dnone{
+        display: unset;
+    }
+    .dnone_1{
+        display: none;
+    }
+    .img_pstn {
+        position: absolute;
+        top: 25%;
+        right: 0;
+    }
+    .bttn_get{
+        padding: 24px 48px;
+    }
+    .img-right {
+        position: absolute;
+        right: 0;
+        top: 33%;
+    }
+    .dnone_2{
+        display: unset;
+    }
+}
+@media (min-width:768px) {
+    .sign_btn {
+        margin-top: 2%;
+        border-radius: 5px;
+        padding: 24px 65px;
+        margin-left: -10%;
+    }
+    .mailbox {
+        width: 100%;
+      }
+      .dnone_2{
+        display: unset;
+    }
+}
+@media (min-width:992px) {
+    .img-left {
+        position: absolute;
+        top: 27%;
+        left: 0;
+      }
+      .img-right {
+        position: absolute;
+        right: 0;
+        top: 20%;
+      }
+      .w100 {
+        width: 50%;
+      }
+      .dnone_2{
+        display: unset;
+    }
+    .pt100 {
+        padding-top: 120px;
+    }
+    .img_pstn {
+        position: absolute;
+        top: 43%;
+        right: 0;
+    }
+    .wdth_span{
+        width: 15%;
+    }
+    .wdth_span_1{
+        margin-left: 7%;
+        width: 20%;
+    }
+    .wdth_span_2{
+        margin-left: 9%;
+        width: 20%;
+    }
+    .wdth_span_3{
+        margin-left: 7%;
+        width: 20%;
+    }
+    .dnone_1{
+        display: none;
+    }
+    .sign_btn {
+        margin-top: 0;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        padding: 24px 65px;
+        margin-left: -10%;
+    }
+    .card {
+        padding: 80px;
+      }
+      .bttn_get{
+        padding: 24px 48px;
+    }
+
+}
+@media (min-width:1400px) {
+    .img_pstn{
+        position: absolute;
+        top: 30%;
+        right: 0;
+    }
+    .w_80{
+        width: 40%;
+    }
+    .img-left {
+        position: absolute;
+        top: 15%;
+        left: 0;
+    }
+    .img-right {
+        position: absolute;
+        right: 0;
+        top: 25%;
+    }
+    .mailbox {
+        width: 50%;
+      }
 }
